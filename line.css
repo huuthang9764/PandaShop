@@ -1,0 +1,25 @@
+#cpsHeader.cps-header{
+    width:100%;
+    background-color: #009688;
+    z-index:1000
+}
+#cpsHeader.cps-header .cps-navbar{
+    height:64px;padding:0;display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+    margin:0 auto
+}
+#cpsHeader.cps-header .cps-navbar .logo__desktop svg{
+    width:161px;height:30px
+}
+#cpsHeader.cps-header .cps-navbar .logo__mobile{
+    display:none;
+}
+
+/* #cpsHeader.cps-header .cps-navbar__call{
+    height:36px;
+    width:auto;overflow:inherit;display:flex;
+    align-items:center;float:left;margin:0 10px 0 0;
+    text-align:center;position:relative;background:unset
+} */

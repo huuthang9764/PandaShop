@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta property = "og:image" content="assets/logo/logo1.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PandaStore</title>
+    <link rel="shortcut icon" type="image/ico" href="assets/logo/logo-moblie.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+    <!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+
+
+
+</head>
+<body>
+   <div id="app">
+    <div id="layout">
+        <div>
+            <header id="pdsHeader" class="pds-header sticky">
+                <div class="pds-container">
+                    <nav class="pds-navbar">
+                        <a href="#" class="navbar-brand">
+                            <div class="box-logo">
+                                <i class="box-logo icon-logo"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="header-item btn-menu btn-category">
+                            <div class="about-icon">
+                                <i class="fa fa-list-ul"></i>
+                            </div>
+                            <div class="about-content about-category">
+                                <p style="font-family:utm-eremitage">Danh mục</p>
+                            </div>
+                        </a>
+                        <div class="box-search pds-navbar-search">
+                            <form>
+                                <div class="pds-group-input is-flex">
+                                    <div class="input-group-btn">
+                                        <button type="submit">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </div>
+                                    <input type="text" 
+                                    placeholder="Bạn cần tìm giề?" 
+                                    style="font-family:utm-eremitage"
+                                    class="pds-input">
+                                </div>
+                            </form>
+                        </div>
+                        <a href="te:0394069764" class="header-item btn-contact ">
+                            <div class="about-icon">
+                                <i class="fa fa-phone fa-2x"></i>
+                            </div>
+                            <div class="about-content">
+                                <p style="font-family:utm-eremitage">Liên Hệ <br>1800.9764</p>
+                            </div>
+                        </a>
+                        <a href="#" class="header-item btn-contact">
+                            <div class="about-icon">
+                                <i class="fa fa-newspaper-o fa-2x" style="size: 20px;"></i>
+                            </div>
+                            <div class="about-content">
+                                <p style="font-family:utm-eremitage">Tin Tức<br> Công Nghệ</p>
+                            </div>
+                        </a>
+                        <a href="#" class="header-item btn-contact btn-cart">
+                            <div class="about-icon">
+                                <i class="fa fa-shopping-cart fa-2x" style="size: 20px;"></i>
+                            </div>
+                            <div class="about-content">
+                                <p style="font-family:utm-eremitage">Giỏ Hàng</p>
+                            </div>
+                        </a>
+                        <a href="#" class="header-item btn-menu">
+                            <div class="about-icon">
+                                <i class="fa fa-user-circle fa-2x"></i>
+                            </div>
+                            <div class="about-content">
+                                <p style="font-family:utm-eremitage">Đăng ký/<br>Đăng nhập</p>
+                            </div>
+                        </a>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="pds-container mt-4">
+            <div class="pds-homepage">
+                <div class="w3-content w3-display-container" style="max-width:800px">
+                    <img class="mySlides" src="assets/img/m2.png" style="width:100%">
+                    <img class="mySlides" src="assets/img/max.png" style="width:100%">
+                    <img class="mySlides" src="assets/img/s222.png" style="width:100%">
+                    <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+                      <div class="w3-left w3-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div>
+                      <div class="w3-right w3-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+                      <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+</body>
+<script src="main.js"></script>
+</html>
+
